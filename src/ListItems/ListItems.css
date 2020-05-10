@@ -1,0 +1,41 @@
+.list{
+    color: #fff;
+    background-color: darkorange;
+    width:300px;
+    height: 50px;
+    margin: 20px auto;
+    border-radius: 5px;
+}
+
+.list p{
+    padding: 10px;
+    position: relative;
+    font-size: large;
+    font-weight: 500;
+}
+
+.list p .del-button {
+    position: absolute;
+    right: 10px;
+    cursor: pointer;
+    background-color: darkviolet;
+    color: #fff;
+    height: 30px;
+    border-radius: 8px;
+    transition: 0.3 linear all;
+    border: 0;
+}
+
+.list p .del-button:hover {
+    background-color: rgb(79, 38, 117);
+    font-size: large;
+    font-weight: 400;
+}
+
+.list p input {
+    background-color: transparent;
+    border: 0;
+    color: #fff;
+    font-size: large;
+    font-weight: 500;   
+}
